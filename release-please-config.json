@@ -1,0 +1,11 @@
+{
+  "monorepo-tags": true,
+  "packages": {
+    "packages/test-package-a": {
+      "release-type": "node"
+    },
+    "packages/test-package-b": {
+      "release-type": "node"
+    }
+  }
+}
