@@ -11,18 +11,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        with:
+          version: 9
+          run_install: false
+
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
           cache: pnpm
           registry-url: https://registry.npmjs.org
-
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        with:
-          version: 9
-          run_install: true
 
       - name: Publish A 🚀
         shell: bash
