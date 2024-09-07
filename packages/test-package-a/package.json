@@ -1,6 +1,6 @@
 {
   "name": "@receter/test-package-a",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Test package a to test monorepo release workflow",
   "main": "index.js",
   "scripts": {
