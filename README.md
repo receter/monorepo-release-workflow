@@ -4,6 +4,8 @@ In this repository, I want to test a monorepo release workflow I have in mind fo
 
 ## The idea
 
+> Edit: I try release-please for now. It seems to be a good fit for my needs.
+
 Whenever a change is pushed to the `main` branch or a pull request is merged, if the `package.json` file of any package in the monorepo contains a version change, the following workflow will be triggered:
 
 1. **Detect Version Changes**:
