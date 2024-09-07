@@ -45,3 +45,14 @@ Here’s an example of how this workflow operates:
 - **GitHub Actions**: The workflow uses GitHub Actions to automatically run on `push` or `pull_request`.
 - **Lerna**: Lerna is used to handle version bumps, changelog generation, and GitHub releases.
 - **Conventional Commits**: If the Conventional Commits format is used the workflow can automatically determine the type of changes (major, minor, patch). Further, it can generate a changelog based on the commit messages.
+
+## Links
+
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Lerna](https://lerna.js.org/)
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [GitHub Releases](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository)
+- [Monorepo](https://en.wikipedia.org/wiki/Monorepo)
+- [Semantic Versioning](https://semver.org/)
+- [Changelog](https://keepachangelog.com/en/1.0.0/)
+- [GitHub Changelog Generator](https://github.com/github-changelog-generator/github-changelog-generator)
