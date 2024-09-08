@@ -7,6 +7,5 @@
     "packages/test-package-b": {
       "release-type": "node"
     }
-  },
-  "changelog-sections": [{ "type": "style", "section": "Styles" }]
+  }
 }
