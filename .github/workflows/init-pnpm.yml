@@ -7,9 +7,6 @@ jobs:
   init-pnpm:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         with:
