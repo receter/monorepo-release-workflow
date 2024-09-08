@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.0.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v2.1.2...test-package-b-v3.0.0) (2024-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* new unified api for both test-package-a and test-package-b
+
+### Features
+
+* new unified api for both test-package-a and test-package-b ([f76396f](https://github.com/receter/monorepo-release-workflow/commit/f76396fec83aa571fb0526f41c442b595b78c5ed))
+
+
+### Bug Fixes
+
+* update helloAWorldMoon and helloBWorld output ([95b91dc](https://github.com/receter/monorepo-release-workflow/commit/95b91dcd62aca2316a84ce23f4816066417d0ab8))
+
+
+### Reverts
+
+* let us never again speak of the noodle incident ([f268beb](https://github.com/receter/monorepo-release-workflow/commit/f268beb423cf78d880ce7710535cfb213a4beb6d))
+* let us never again speak of the noodle incident ([37d5a04](https://github.com/receter/monorepo-release-workflow/commit/37d5a0459ee62e35d66195301ff5f6295d5e68dc))
+
 ## [2.1.2](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v2.1.1...test-package-b-v2.1.2) (2024-09-08)
 
 
