@@ -3,8 +3,11 @@ name: Init pnpm
 runs:
   using: "composite"
   steps:
-    - uses: pnpm/action-setup@v2
-      name: Install pnpm
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2
       with:
         version: 9
         run_install: false
