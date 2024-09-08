@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v3.0.0...test-package-b-v3.0.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* output was "B Moon" instead of "A Moon" and we moved away from exclamation marks in the output. ([f1c061d](https://github.com/receter/monorepo-release-workflow/commit/f1c061d84232c80105a006d593127b95394254aa))
+
 ## [3.0.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v2.1.2...test-package-b-v3.0.0) (2024-09-08)
 
 
