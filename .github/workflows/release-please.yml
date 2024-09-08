@@ -13,8 +13,8 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     outputs:
-      test-package-a--release_created: ${{ steps.release.outputs.test-package-a--release_created}}
-      test-package-b--release_created: ${{ steps.release.outputs.test-package-b--release_created}}
+      test-package-a--release_created: ${{ steps.release.outputs['packages/test-package-a--release_created']}}
+      test-package-b--release_created: ${{ steps.release.outputs['packages/test-package-b--release_created']}}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
