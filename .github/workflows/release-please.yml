@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: release-please
     steps:
-      - uses: ./.github/workflows/init-pnpm
+      - uses: ./.github/workflows/init-pnpm.yml
 
       - name: Publish 🚀
         shell: bash
@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: release-please
     steps:
-      - uses: ./.github/workflows/init-pnpm
+      - uses: ./.github/workflows/init-pnpm.yml
 
       - name: Publish 🚀
         shell: bash
