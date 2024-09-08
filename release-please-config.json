@@ -8,5 +8,5 @@
       "release-type": "node"
     }
   },
-  "changelog-types": [{ "type": "style", "section": "Styling" }]
+  "changelog-sections": [{ "type": "style", "section": "Styles" }]
 }
