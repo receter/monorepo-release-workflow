@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v2.1.0...test-package-b-v2.1.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* update helloBWorld output with additional exclamation mark ([9be87e5](https://github.com/receter/monorepo-release-workflow/commit/9be87e57ecbc65a22b47b831f845374ef86fbf2e))
+
 ## [2.1.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-b-v2.0.0...test-package-b-v2.1.0) (2024-09-08)
 
 
