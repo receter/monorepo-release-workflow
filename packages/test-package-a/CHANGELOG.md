@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v2.1.1...test-package-a-v2.1.2) (2024-09-08)
+
+
+### Bug Fixes
+
+* update helloAWorldMoon output with additional exclamation marks ([619fceb](https://github.com/receter/monorepo-release-workflow/commit/619fcebf9e4fe5a08962055401ca6513fb88ffaf))
+
 ## [2.1.1](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v2.1.0...test-package-a-v2.1.1) (2024-09-08)
 
 
