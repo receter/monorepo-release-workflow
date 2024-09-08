@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v2.0.0...test-package-a-v2.1.0) (2024-09-08)
+
+
+### Features
+
+* add helloAWorldMoon function to test-package-a ([c13a3f9](https://github.com/receter/monorepo-release-workflow/commit/c13a3f9732120d20fc22697cd8ee7f523a3833c5))
+
 ## [2.0.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v1.0.0...test-package-a-v2.0.0) (2024-09-08)
 
 
