@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v2.1.0...test-package-a-v2.1.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* update helloAWorldMoon console log message ([9fd1460](https://github.com/receter/monorepo-release-workflow/commit/9fd14602abc02dc4fce343ce8d782f0d437fa3e0))
+
 ## [2.1.0](https://github.com/receter/monorepo-release-workflow/compare/test-package-a-v2.0.0...test-package-a-v2.1.0) (2024-09-08)
 
 
