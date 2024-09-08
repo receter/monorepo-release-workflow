@@ -14,6 +14,14 @@ With this approach the publish jobs can be re-run manually in case of a failure.
 
 ## Notes
 
+### Editing the PR description
+
+While you can edit the PR description this will not affect the creation of the content for `CHANGELOG.md`. This will be generated from scratch by the release-please action based on the conventional commits in the PR when the PR is merged.
+
+But the modified PR description will be used for the GitHub release.
+
+> **Note:** When there is another push to the `main` branch after the description was edited, the PR description will be overwritten by the release-please action.
+
 ### Changelog Sections
 
 Currently the default configuration for changelog sections is active. This can be changed in `release-please-config.json` file. The default configuration ([source](https://git.io/JqCZL)) is:
