@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: ./.github/workflows/init-pnpm.yml
+      - uses: ./.github/workflows/init-pnpm
 
       - name: Publish 🚀
         shell: bash
@@ -45,7 +45,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: ./.github/workflows/init-pnpm.yml
+      - uses: ./.github/workflows/init-pnpm
 
       - name: Publish 🚀
         shell: bash

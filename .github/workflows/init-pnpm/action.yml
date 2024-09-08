@@ -1,0 +1,23 @@
+name: Init pnpm
+
+on:
+  workflow_call: # Allows this workflow to be called from other workflows
+
+runs:
+  using: "composite"
+  steps:
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      with:
+        version: 9
+        run_install: false
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version-file: ".nvmrc"
+        cache: pnpm
+        registry-url: https://registry.npmjs.org
+
+    - name: Install dependencies
+      run: pnpm install --frozen-lockfile
