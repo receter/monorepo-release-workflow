@@ -1,2 +1,2 @@
-export function helloAWorld() { console.log("Hello A World!!!!!") }
-export function helloAWorldMoon() { console.log("Hello B World Moon!!!!") }
+export function helloWorld() { console.log("Hello A World!!!!!") }
+export function helloMoon() { console.log("Hello B Moon!!") }
